@@ -1,34 +1,32 @@
 package com.example.labs.myapplication;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.content.Intent;
 
-public class MainActivity extends AppCompatActivity {
+public class activity_lpp2901_2 extends AppCompatActivity {
 
-    private Button button;
+    private Button button2;
 
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button = (Button) findViewById(R.id.button);
+        button2 = (Button) findViewById(R.id.button);
 
-        button.setOnClickListener(new View.OnClickListener() {
+        button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openActivity2();
+                openMainActivity();
             }
         });
     }
 
+    public void openMainActivity() {
 
-    public void openActivity2() {
-
-        Intent intent = new Intent(this, activity_lpp2901_2.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 }
