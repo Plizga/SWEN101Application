@@ -4,26 +4,30 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
 
-public class MainActivity extends AppCompatActivity {
+public class OpeningPage extends AppCompatActivity {
 
-    private Button button;
+    private ImageButton anxious, sad, tired, happy;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_opening_page);
 
-        button = (Button) findViewById(R.id.button);
+        anxious = (ImageButton) findViewById(R.id.imageButton5);
+        sad = (ImageButton) findViewById(R.id.imageButton8);
+        tired = (ImageButton) findViewById(R.id.imageButton7);
+        happy = (ImageButton) findViewById(R.id.imageButton9);
 
-        button.setOnClickListener(new View.OnClickListener() {
+        happy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openActivity2();
             }
         });
     }
+
 
     public void openActivity2() {
 

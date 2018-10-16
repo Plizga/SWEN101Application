@@ -10,11 +10,12 @@ public class activity_lpp2901_2 extends AppCompatActivity {
 
     private Button button2;
 
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_userid_2);
 
-        button2 = (Button) findViewById(R.id.button);
+        button2 = (Button) findViewById(R.id.button2);
 
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
