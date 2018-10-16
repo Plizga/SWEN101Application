@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity_lpp2901_2"></activity>
+        <activity android:name=".activity_lpp2901_2" />
+        <activity android:name=".HomePage" />
+        <activity android:name=".CustomizationMenu"></activity>
     </application>
 
 </manifest>

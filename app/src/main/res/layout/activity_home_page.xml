@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.labs.myapplication.HomePage">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="168dp"
+        android:layout_height="82dp"
+        android:text="Main Menu"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="113dp"
+        android:layout_height="59dp"
+        android:text="Customize"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="108dp"
+        android:layout_height="65dp"
+        android:text="Link 2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="319dp"
+        android:layout_height="82dp"
+        android:text="(something else?"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="469dp" />
+</android.support.constraint.ConstraintLayout>
